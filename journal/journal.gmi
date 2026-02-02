@@ -1,0 +1,7 @@
+# Warren's Audio Experiment Journal Gemlog
+
+If I'm going to keep a journal on this audio project, I might as well do it in Gemini.
+
+## My Posts
+
+=> 2026/02-01.gmi 2026-02-01 - Setting up the project

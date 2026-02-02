@@ -1,0 +1,40 @@
+# 2026-02-01 Project Setup
+
+I installed emacs gemtext-mode, that should help edit these.
+
+First question, why gemtext?  Well I find if I start thinking about a
+blog, I start thinking about Hugo, or Org publish, and then I start
+thinking about styling and what kind of page headers, and menus and
+how to embed images and ... and then I stop.
+
+With the gemtext I can probably just focus on writing and that's
+better for a journal that will probably only be read by me anyway.
+And with gemtext-mode providing some highlight, it's more or less as
+good as anything else.
+
+I wrote a page in a different blog about what I'm building. I'll port
+that over later. For now, what are todays goals?
+
+* Figure out if SBCL works on a Raspberry Pi
+* Figure out if Gentoo works on a Raspberry Pi
+* Get my Raspberry Pi setup with both of them.
+
+So there is SBCL (but an old version), GCL and ECL all look like they
+could be candidates.  I have no idea right now. Onto Gentoo.
+
+Gentoo is a go. I want that because I'll be compiling my own kernel
+(real time support), I don't want X or Wayland, I want a framebuffer,
+etc.  Gotta be lean and mean.
+
+So lets start with Gentoo. There is a gentoo handbook for this. I
+begin now.  I have a microSD card, 128 GB, and a microSD card USB
+reader device.  Music world must live in 128 GB. /dev/sda
+
+in my boot/config.txt I have some standard stuff, but this
+https://www.raspberrypi.com/documentation/computers/config_txt.html
+might have more things for audio.
+
+I followed these instructions https://wiki.gentoo.org/wiki/Raspberry_Pi_Install_Guide#Overview, now to test the thing.
+
+Alright, a few mistakes but is working now. I've got it booting, got a password set on it, and can SSH into it.  That should be enough for now.
+
